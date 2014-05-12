@@ -1,0 +1,35 @@
+{
+  "name": "killroy",
+  "version": "0.0.0",
+  "description": "a cli chat bot",
+  "main": "main.js",
+  "dependencies": {
+    "cleverbot-node": "^0.1.8",
+    "express": "^4.2.0",
+    "prompt": "^0.2.12",
+    "request": "^2.34.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsdoc": "^0.5.4",
+    "ink-docstrap": "^0.4.0-2",
+    "jsdoc": "^3.3.0-alpha5",
+    "moment": "^2.6.0"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "cli chatbot",
+    "chatbot",
+    "cleverbot",
+    "urban dictionary"
+  ],
+  "author": "sd84 <69f6613f@opayq.com>",
+  "license": "MIT"
+}
