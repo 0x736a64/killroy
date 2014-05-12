@@ -2,7 +2,7 @@
   "name": "killroy",
   "version": "0.0.0",
   "description": "a cli chat bot",
-  "main": "main.js",
+  "main": "./lib/killroy.js",
   "dependencies": {
     "cleverbot-node": "^0.1.8",
     "express": "^4.2.0",
@@ -22,7 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/sd84/killroy.git"
+  },
+  "bugs" : {
+      "url" : "https://github.com/sd84/killroy.git/issues"
   },
   "keywords": [
     "cli chatbot",
