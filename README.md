@@ -6,8 +6,11 @@
 #### Define
 **var bot = require('killroy');**
 
-#### Greet
-**bot.greet();**
-
 #### Listen
 **bot.listen(port)**
+
+#### Init
+**bot.init();**
+
+#### Greet
+**bot.greet();**
