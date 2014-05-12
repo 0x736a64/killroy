@@ -7,7 +7,7 @@
 **var bot = require('killroy');**
 
 #### Listen
-**bot.listen(port)**
+**bot.listen(port);**
 
 #### Init
 **bot.init();**
