@@ -1,17 +1,6 @@
 module.exports = function (grunt){
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    jsdoc : {
-        dist : {
-            src: ['./lib/*.js'],
-            jsdoc: './node_modules/.bin/jsdoc',
-            options: {
-                destination: 'doc',
-                configure: './conf.json',
-                template: './node_modules/ink-docstrap/template'
-            }
-        }
-    },
     jshint: {
       files: ['lib/killroy.js'],
       options: {
@@ -22,7 +11,6 @@ module.exports = function (grunt){
       }
     }
   });
-  grunt.loadNpmTasks('grunt-jsdoc');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.registerTask('default', ['jsdoc', 'jshint']);
+  grunt.registerTask('default', ['jshint']);
 };

@@ -1,16 +1,10 @@
-## Killroy
+# Killroy
 
-#### Install
-**npm install killroy**
+### Install
+	npm install killroy
 
-#### Define
-**var bot = require('killroy');**
+### Define
+	var bot = require('killroy');
 
-#### Listen
-**bot.listen(port);**
-
-#### Init
-**bot.init();**
-
-#### Greet
-**bot.greet();**
+### Init
+	bot.init();
