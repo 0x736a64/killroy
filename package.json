@@ -1,10 +1,10 @@
 {
   "name": "killroy",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a cli chat bot",
   "main": "./lib/killroy.js",
   "dependencies": {
-    "cleverbot-node": "^0.1.8",
+    "cleverbot-node": "^0.3.10",
     "prompt": "^0.2.12",
     "request": "^2.34.0"
   },
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sd84/killroy.git"
+    "url": "https://github.com/0x736a64/killroy.git"
   },
-  "bugs" : {
-      "url" : "https://github.com/sd84/killroy/issues"
+  "bugs": {
+    "url": "https://github.com/0x736a64/killroy/issues"
   },
   "keywords": [
     "cli chatbot",
@@ -28,6 +28,6 @@
     "cleverbot",
     "urban dictionary"
   ],
-  "author": "sd84 <69f6613f@opayq.com>",
+  "author": "0x736a64 <69f6613f@opayq.com>",
   "license": "MIT"
 }
